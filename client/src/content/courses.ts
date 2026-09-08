@@ -1436,3 +1436,14 @@ export const courseSelectOptions = courses.map((item) => ({
       ? 'Office Automation & Productivity (MS Word, MS Excel, MS PowerPoint)'
       : item.title,
 }));
+
+/** Full course name for forms / Google Sheets (slug or title → display label). */
+export function getCourseDisplayName(slugOrTitle: string): string {
+  const trimmed = slugOrTitle.trim();
+  if (!trimmed) return trimmed;
+  const bySlug = courseSelectOptions.find((item) => item.value === trimmed);
+  if (bySlug) return bySlug.label;
+  const byLabel = courseSelectOptions.find((item) => item.label === trimmed);
+  return byLabel?.label ?? trimmed;
+}
+
