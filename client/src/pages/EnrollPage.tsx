@@ -10,7 +10,7 @@ import { Input } from '@/components/ui/Input';
 import { Select } from '@/components/ui/Select';
 import { Textarea } from '@/components/ui/Textarea';
 import { Button } from '@/components/ui/Button';
-import { courseSelectOptions } from '@/content/courses';
+import { courseSelectOptions, getCourseDisplayName } from '@/content/courses';
 import { api, getFormSuccessMessage } from '@/api/client';
 
 const SUCCESS_MESSAGE = 'Our mentor will reach out to you soon.';
@@ -47,6 +47,7 @@ export default function EnrollPage() {
     try {
       const { data } = await api.post('/enrollments', {
         ...values,
+        course: getCourseDisplayName(values.course),
         paymentStatus: 'pending',
       });
       const message = getFormSuccessMessage(data);
