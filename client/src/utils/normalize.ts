@@ -61,7 +61,7 @@ export function normalizeCourse(raw: unknown): Course {
     totalHours: Number(item.totalHours) || 0,
     classCount: Number(item.classCount) || 0,
     mode: (asString(item.mode, 'Hybrid') as Course['mode']),
-    projectCount: Number(item.projectCount) || 0,
+    projectCount: asString(item.projectCount),
     fee: asString(item.fee, 'Fee on enquiry'),
     feeAmount: Number(item.feeAmount) || 0,
     skills: asStringArray(item.skills),

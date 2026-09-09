@@ -54,7 +54,7 @@ const python = course({
   durationWeeks: 8,
   totalHours: 60,
   classCount: 40,
-  projectCount: 2,
+  projectCount: '2',
   skills: [
     'Python fundamentals',
     'Control flow',
@@ -168,7 +168,7 @@ const sql = course({
   durationWeeks: 6,
   totalHours: 45,
   classCount: 30,
-  projectCount: 2,
+  projectCount: '1 Major Project',
   skills: [
     'Database design',
     'SQL queries',
@@ -271,7 +271,7 @@ const cLang = course({
   durationWeeks: 6,
   totalHours: 45,
   classCount: 30,
-  projectCount: 1,
+  projectCount: '1 Major Project',
   skills: [
     'C syntax',
     'Decision making & loops',
@@ -362,7 +362,7 @@ const cpp = course({
   durationWeeks: 6.8,
   totalHours: 50,
   classCount: 34,
-  projectCount: 2,
+  projectCount: '1 Major Project',
   skills: [
     'C++ fundamentals',
     'Functions & arrays',
@@ -461,7 +461,7 @@ const java = course({
   durationWeeks: 8,
   totalHours: 60,
   classCount: 40,
-  projectCount: 2,
+  projectCount: '2',
   skills: [
     'Java fundamentals',
     'Control statements',
@@ -546,7 +546,7 @@ const html = course({
   durationWeeks: 3.6,
   totalHours: 26,
   classCount: 18,
-  projectCount: 1,
+  projectCount: '1 Mini Project',
   skills: [
     'HTML structure',
     'Forms & inputs',
@@ -626,7 +626,7 @@ const css = course({
   durationWeeks: 4,
   totalHours: 30,
   classCount: 20,
-  projectCount: 1,
+  projectCount: '1 Mini Project',
   skills: [
     'CSS fundamentals',
     'Box model',
@@ -699,7 +699,7 @@ const javascript = course({
   durationWeeks: 8,
   totalHours: 60,
   classCount: 40,
-  projectCount: 4,
+  projectCount: '2',
   skills: [
     'JavaScript fundamentals',
     'DOM manipulation',
@@ -789,7 +789,7 @@ const tailwind = course({
   durationWeeks: 4,
   totalHours: 30,
   classCount: 20,
-  projectCount: 1,
+  projectCount: '1 Mini Project',
   skills: [
     'Utility-first CSS',
     'Responsive design',
@@ -865,7 +865,7 @@ const reactJs = course({
   durationWeeks: 8,
   totalHours: 60,
   classCount: 40,
-  projectCount: 2,
+  projectCount: '2',
   skills: [
     'React components & JSX',
     'State & events',
@@ -947,7 +947,7 @@ const powerbi = course({
   durationWeeks: 5.4,
   totalHours: 40,
   classCount: 27,
-  projectCount: 1,
+  projectCount: '1 Major Project',
   skills: [
     'Power BI Desktop',
     'Power Query',
@@ -1037,7 +1037,7 @@ const excel = course({
   durationWeeks: 6,
   totalHours: 45,
   classCount: 30,
-  projectCount: 1,
+  projectCount: '1 Major Project',
   skills: [
     'Excel fundamentals',
     'Formulas & functions',
@@ -1125,7 +1125,7 @@ const office = course({
   durationWeeks: 4,
   totalHours: 30,
   classCount: 20,
-  projectCount: 3,
+  projectCount: '1 Mini Project',
   skills: [
     'Digital office skills',
     'MS Word',
@@ -1203,7 +1203,7 @@ const msWord = course({
   durationWeeks: 2.8,
   totalHours: 20,
   classCount: 14,
-  projectCount: 5,
+  projectCount: '1 Mini Project',
   skills: [
     'Document formatting',
     'Styles & themes',
@@ -1271,7 +1271,7 @@ const msExcel = course({
   durationWeeks: 6,
   totalHours: 45,
   classCount: 30,
-  projectCount: 5,
+  projectCount: '1 Major Project',
   skills: [
     'Beginner Excel',
     'Intermediate functions',
@@ -1351,7 +1351,7 @@ const msPowerPoint = course({
   durationWeeks: 2.8,
   totalHours: 20,
   classCount: 14,
-  projectCount: 4,
+  projectCount: '1 Mini Project',
   skills: [
     'Presentation fundamentals',
     'Visual design',

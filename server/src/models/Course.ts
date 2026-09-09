@@ -12,7 +12,7 @@ const courseSchema = new Schema(
     duration: { type: String, required: true },
     durationWeeks: { type: Number, required: true, min: 1 },
     mode: { type: String, enum: ['Online', 'Offline', 'Hybrid'], required: true },
-    projectCount: { type: Number, default: 0, min: 0 },
+    projectCount: { type: String, default: '' },
     fee: { type: String, default: 'Fee on enquiry' },
     feeAmount: { type: Number, default: 0, min: 0 },
     skills: [{ type: String }],

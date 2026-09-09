@@ -125,7 +125,7 @@ export const seedPayload = {
     duration: '8 Weeks',
     durationWeeks: 8,
     mode: 'Online',
-    projectCount: 3,
+    projectCount: '3',
     fee: 'Fee on enquiry',
     feeAmount: 0,
     skills: [title],
