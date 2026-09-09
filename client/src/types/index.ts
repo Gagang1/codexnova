@@ -48,7 +48,7 @@ export type Course = {
   totalHours: number;
   classCount: number;
   mode: LearningMode;
-  projectCount: number;
+  projectCount: string;
   fee: string;
   feeAmount: number;
   skills: string[];

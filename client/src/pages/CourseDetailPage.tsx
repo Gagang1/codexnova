@@ -150,7 +150,7 @@ export default function CourseDetailPage() {
             <Row label="Classes" value={String(course.classCount)} />
             <Row label="Level" value={course.level} />
             <Row label="Mode" value={course.mode} />
-            <Row label="Projects" value={String(course.projectCount)} />
+            <Row label="Projects" value={course.projectCount} />
             <Row label="Fee" value={course.fee} />
             <Row
               label="Instructor"

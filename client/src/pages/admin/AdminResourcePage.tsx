@@ -255,7 +255,7 @@ function pickWritable(resource: string, initial: Record<string, unknown>) {
       totalHours: 60,
       classCount: 40,
       mode: 'Hybrid',
-      projectCount: 2,
+      projectCount: '2',
       fee: 'Fee on enquiry',
       feeAmount: 0,
       skills: [],
